@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}Viveres TENZIN{% endblock %}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="/">Inicio</a>
+        <a href="/about">Acerca de</a>
+        <a href="/inventario">Inventario</a>
+        <a href="/persistencia">Persistencia</a>
+        <a href="/datos">Datos</a>
+    </nav>
+
+    <!-- Contenido dinámico -->
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-principal">
+        Proyecto Flask - Viveres TENZIN
+    </footer>
+
+</body>
+</html>

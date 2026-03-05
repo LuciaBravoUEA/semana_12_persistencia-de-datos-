@@ -1,0 +1,5 @@
+<h2>Datos desde SQLite</h2>
+{% for p in productos %}
+<p>{{ p.nombre }} - {{ p.precio }} - {{ p.cantidad }}</p>
+{% endfor %}
+<a href="/">Volver</a>

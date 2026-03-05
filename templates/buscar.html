@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Resultado de búsqueda</h2>
+
+{% if producto %}
+    <p><strong>ID:</strong> {{ producto[0] }}</p>
+    <p><strong>Producto:</strong> {{ producto[1] }}</p>
+    <p><strong>Precio:</strong> {{ producto[2] }}</p>
+    <p><strong>Cantidad:</strong> {{ producto[3] }}</p>
+{% else %}
+    <p>No se encontró el producto.</p>
+{% endif %}
+
+<p style="margin-top:20px;">
+    <a href="/inventario">Volver al Inventario</a>
+</p>
+{% endblock %}
