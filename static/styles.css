@@ -1,0 +1,113 @@
+
+/* ESTILO GENERAL */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* MENÚ DE NAVEGACIÓN */
+
+nav {
+    background-color: #1e90ff;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+
+/* TÍTULO PRINCIPAL */
+.titulo-principal {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+}
+
+/* LOGO */
+
+.logo-portada {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo-portada img {
+    width: 350px;     
+    height: auto;
+}
+
+/* Formularios */
+form {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    width: 50%;
+}
+form input, form button {
+    margin: 8px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+}
+form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #2980b9;
+}
+/* Tablas */
+table {
+    border-collapse: collapse;
+    margin: 20px auto;
+    width: 80%;
+    background-color: white;
+}
+table th, table td {
+    border: 1px solid #bdc3c7;
+    padding: 10px;
+    text-align: center;
+}
+table th {
+    background-color: #34495e;
+    color: white;
+}
+table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+
+/* LINKS DE PERSISTENCIA */
+a {
+    font-weight: bold;
+}
+
+a:hover {
+    color: #1e90ff;
+}
+
+
+/* FOOTER */
+.footer-principal {
+    text-align: center;
+    margin-top: 60px;
+    padding: 20px;
+    background-color: #1e90ff;
+    color: white;
+    font-size: 14px;
+}
